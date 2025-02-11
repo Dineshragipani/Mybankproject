@@ -65,7 +65,6 @@ function home() {
          <p><input type="number" id="amount" placeholder="Enter Amount"></p>
          <button onclick='saveData()'>Submit</button>
          <p><b>Current Balance: <span id='spBalance'>${user.balance}</span></b></p>
-
       `;
   root.innerHTML = str;
 }
