@@ -116,8 +116,8 @@ function showLogin() {
   <div>
       <h2>Login Form</h2>
       <div id='msg'></div>
-      <p><input id="email" type="text"></p>
-      <p><input id="password" type="password"></p>
+      <p><input id="email" type="text" placeholder="email"></p>
+      <p><input id="password" type="password" plaeholder="Password"></p>
       <button onclick='chkUser()'>Log In</button>
       <p><button onclick='showForm()'>Create Account</button></p>
   </div>
